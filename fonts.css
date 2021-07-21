@@ -1,36 +1,9 @@
 @font-face {
-  font-family: 'pt_serifregular';
-  src: 
-    url('fonts/pt_serifregular.ttf'),
-    url('fonts/pt_serifregular-webfont.woff2') format('woff2'),
-    url('fonts/pt_serifregular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'pt_serifitalic';
-  src:
-    url('fonts/pt_serifitalic.ttf'), 
-    url('fonts/pt_serifitalic-webfont.woff2') format('woff2'),
-    url('fonts/pt_serifitalic-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: 'pt_serifbold';
   src:
     url('fonts/pt_serifbold-webfont.ttf'), 
     url('fonts/pt_serifbold-webfont.woff2') format('woff2'),
     url('fonts/pt_serifbold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'pt_serifbold_italic';
-  src:
-    url('fonts/pt_serifbold_italic.ttf'), 
-    url('fonts/pt_serifbold_italic-webfont.woff2') format('woff2'),
-    url('fonts/pt_serifbold_italic-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }

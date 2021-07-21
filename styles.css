@@ -1,0 +1,55 @@
+body { 
+  margin: 0;
+  background:  no-repeat url(img/background_1920.jpg); 
+  background-size: cover;
+  height: 100vh;
+}
+.wrapper{
+  width: 80%;
+  margin: auto;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+#menu__toggle {
+  display: none;
+}
+.burger-menu{
+  display: none;
+}
+.logo, .menu{
+  display: inline-block;
+}
+.logo{
+  width: 146px;
+  height: 55px;
+  background: no-repeat url(img/logo.svg);
+  position: relative;
+  top: 88px;
+  left: 7px;
+}
+.menu{
+  display: flex;
+  align-items: center;
+  margin-top: 102px;
+  margin-right: -51px;
+ 
+}
+.menu__item{
+  position: relative;
+  font: 22px/26px museo_sans_cyrl, arial, helvetica, sans-seris;
+  color: #F8EEE4;
+  text-decoration: none;
+  word-spacing: 1px;
+  margin-right: 41px;
+}
+.menu__item:last-child { 
+  margin-right: -22px;
+}
+.menu__item:hover { 
+  opacity: 0.5;
+}
+
+
