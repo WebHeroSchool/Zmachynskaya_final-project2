@@ -35,7 +35,6 @@ body {
   align-items: center;
   margin-top: 102px;
   margin-right: -51px;
- 
 }
 .menu__item{
   position: relative;
@@ -51,5 +50,91 @@ body {
 .menu__item:hover { 
   opacity: 0.5;
 }
-
-
+.section{
+  display: flex;
+  justify-content: space-between;
+}
+.main{
+  width: 37%;
+}
+.main__title{
+  margin: 0;
+  font: 280px/371px pt_serifbold, arial, helvetica, sans-seris;
+  color: #F8EEE4;
+  opacity: 0.5;
+  margin-left: 6px;
+  margin-bottom: -143px;
+}
+.main__subtitle{
+  margin: 0;
+  font: 98px/130px pt_serifbold, arial, helvetica, sans-seris;
+  color: #F8EEE4;
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+.main__description{
+  font: 22px/26px museo_sans_cyrl, arial, helvetica, sans-seris;
+  color: #F8EEE4;
+  word-spacing: 1px;
+  margin: 0;
+  margin-left: 30px;
+  margin-bottom: 35px;
+}
+.main__button{
+  display: inline-block;
+  font: 22px/26px museo_sans_cyrl, arial, helvetica, sans-seris;
+  color: #fff;
+  word-spacing: 4px;
+  text-decoration: none;
+  padding: 17px 55px 17px 87px; 
+  width: 150px;
+  height: 28px;
+  background: #D4BEA3;
+  border-radius: 48px;
+  margin-left: 31px;
+  transition: opacity .5s;
+}
+.main__button:hover{
+  cursor: pointer;
+  color: #333;
+  transform: scale(1.1);
+}
+.gallery{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 111px;
+  left: 191px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.gallery__image-first{
+  display: inline-block;
+  position: relative;
+  height: 422px;
+  width: 317px;
+  background: no-repeat url(img/image1_1920.jpg);
+  border-radius: 5px;
+}
+.gallery__image-second{
+  display: inline-block;
+  position: relative;
+  top: 19px;
+  left: 33px;
+  height: 380px;
+  width: 284px;
+  background: no-repeat url(img/image2_1920.jpg);
+  border-radius: 5px;
+}
+.gallery__image-third{
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  left: 66px;
+  height: 380px;
+  width: 254px;
+  background: no-repeat url(img/image3_1920.jpg);
+  border-radius: 5px;
+  padding-right: 20px;
+}
