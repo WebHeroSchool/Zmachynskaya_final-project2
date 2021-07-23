@@ -1,6 +1,6 @@
-body { 
+ody { 
   margin: 0;
-  background:  no-repeat url(img/background_1920.jpg); 
+  background:  no-repeat top url(image/background_1920.jpg); 
   background-size: cover;
   height: 100vh;
 }
@@ -25,7 +25,7 @@ body {
 .logo{
   width: 146px;
   height: 55px;
-  background: no-repeat url(img/logo_1920.svg);
+  background: no-repeat url(image/logo_1920.svg);
   position: relative;
   top: 88px;
   left: 7px;
@@ -56,6 +56,7 @@ body {
 }
 .main{
   width: 37%;
+  margin-right: 19%;
 }
 .main__title{
   margin: 0;
@@ -79,6 +80,7 @@ body {
   margin: 0;
   margin-left: 30px;
   margin-bottom: 35px;
+  margin-right: -10px;
 }
 .main__button{
   display: inline-block;
@@ -101,50 +103,43 @@ body {
 }
 .gallery{
   display: flex;
-  justify-content: space-between;
-  position: relative;
-  top: 111px;
-  left: 191px;
   padding: 0;
+  padding-top: 109px;
   margin: 0;
-  overflow: hidden;
 }
 .gallery__image-first{
   display: inline-block;
-  position: relative;
   height: 422px;
   width: 317px;
-  background: no-repeat url(img/image1_1920.jpg);
+  background: no-repeat url(image/image1_1920.jpg);
   border-radius: 5px;
+  margin-right: 34px;
+  margin-left: 6px;
+  margin-top: 2px;
 }
 .gallery__image-second{
   display: inline-block;
-  position: relative;
-  top: 19px;
-  left: 33px;
   height: 380px;
   width: 284px;
-  background: no-repeat url(img/image2_1920.jpg);
+  background: no-repeat url(image/image2_1920.jpg);
   border-radius: 5px;
+  margin-top: 22px;
+  margin-right: 33px;
 }
 .gallery__image-third{
   display: inline-block;
-  position: relative;
-  top: 20px;
-  left: 66px;
   height: 380px;
-  width: 254px;
-  background: no-repeat url(img/image3_1920.jpg);
+  width: 209px;
+  background: no-repeat url(image/image3_1920.jpg);
   border-radius: 5px;
-  padding-right: 20px;
+  margin-top: 21px;
+  
 }
-
-
 
 
 @media(max-width: 1367px){
   .body{
-    background:  no-repeat url(img/background_1366.jpg); 
+    background:  no-repeat top url(image/background_1366.jpg); 
   }
   .wrapper {
     width: 80%;
@@ -153,7 +148,7 @@ body {
     margin-bottom: 105px;
   }
   .logo{
-    background: no-repeat url(img/logo_1366.svg);
+    background: no-repeat url(image/logo_1366.svg);
     width: 104px;
     height: 39px;
     top: 63px;
@@ -172,6 +167,7 @@ body {
   }
   .main {
     width: 38%;
+    margin-right: 16%;
   }
   .main__title{
     font: 200px/265px pt_serifbold, arial, helvetica, sans-seris;
@@ -186,6 +182,7 @@ body {
     font: 16px/19px museo_sans_cyrl, arial, helvetica, sans-seris;
     margin-left: 20px;
     margin-bottom: 25px;
+    margin-right: -17px;
   }
   .main__button{
     font: 16px/19px museo_sans_cyrl, arial, helvetica, sans-seris;
@@ -195,37 +192,36 @@ body {
     padding: 12px 51px 12px 63px;
     word-spacing: 3px;
   }
-  .gallery {
-    top: 82px;
-    left: 136px;
+  .gallery{
+    padding-top: 78px;
+    margin-left: 32px;
   }
   .gallery__image-first{
     width: 226px;
     height: 300px;
-    background: no-repeat url(img/image1_1366.jpg);
+    background: no-repeat url(image/image1_1366.jpg);
+    margin-left: 3px;
+    margin-right: 24px;
   }
   .gallery__image-second{
     width: 202px;
     height: 270px;
-    background: no-repeat url(img/image2_1366.jpg);
-    top: 14px;
-    left: 24px;
+    background: no-repeat url(image/image2_1366.jpg);
+    margin-top: 18px;
+    margin-right: 23px;
   }
   .gallery__image-third{
-    width: 181px;
+    width: 150px;
     height: 270px;
-    background: no-repeat url(img/image3_1366.jpg);
-    padding-right: 15px;
-    top: 14px;
-    left: 48px;
+    background: no-repeat url(image/image3_1366.jpg);
+    margin-top: 16px;
   }
 }
 
 
-
 @media(max-width: 1025px){
   .body{
-    background:  no-repeat url(img/background_1024.jpg); 
+    background:  no-repeat top url(image/background_1024.jpg); 
   }
   .wrapper {
     width: 92%;
@@ -234,7 +230,7 @@ body {
     margin-bottom: 108px;
   }
   .logo{
-    background: no-repeat url(img/logo_1024.svg);
+    background: no-repeat url(image/logo_1024.svg);
     width: 104px;
     height: 39px;
     left: 0;
@@ -244,7 +240,8 @@ body {
     margin-right: 33px;
   }
   .main {
-    width: 52%;
+    width: 41%;
+    margin-right: 5%;
   }
   .main__title {
     margin-left: 0;
@@ -262,27 +259,28 @@ body {
     margin-left: 16px;
   }
   .gallery {
-    top: 78px;
-    left: 55px;
+    padding-top: 77px;
+    margin-left: 34px;
   }
    .gallery__image-first{
-    background: no-repeat url(img/image1_1024.jpg);
+    background: no-repeat url(image/image1_1024.jpg);
+    margin-top: 1px;
   }
   .gallery__image-second{
-    background: no-repeat url(img/image2_1024.jpg);
+    background: no-repeat url(image/image2_1024.jpg);
+    margin-top: 15px;
   }
   .gallery__image-third{
-    background: no-repeat url(img/image3_1024.jpg);
+    background: no-repeat url(image/image3_1024.jpg);
+    margin-top: 15px;
+    width: 38px;
   }
 }
 
 
-
-
-
 @media(max-width: 376px){
   .body{
-    background:  no-repeat url(img/background_mobile_375.jpg); 
+    background:  no-repeat top url(image/background_mobile_375.jpg); 
   }
   .wrapper {
     width: 92%;
