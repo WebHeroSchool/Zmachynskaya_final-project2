@@ -5,7 +5,6 @@ body {
   height: 100vh;
 }
 .wrapper{
-  width: 80%;
   margin: auto;
 }
 .header{
@@ -28,13 +27,13 @@ body {
   background: no-repeat url(image/logo_1920.svg);
   position: relative;
   top: 88px;
-  left: 7px;
+  left: 200px;
 }
 .menu{
   display: flex;
   align-items: center;
   margin-top: 102px;
-  margin-right: -51px;
+  margin-right: 78px;
 }
 .menu__item{
   position: relative;
@@ -44,9 +43,6 @@ body {
   word-spacing: 1px;
   margin-right: 41px;
 }
-.menu__item:last-child { 
-  margin-right: -22px;
-}
 .menu__item:hover { 
   opacity: 0.5;
 }
@@ -55,22 +51,21 @@ body {
   justify-content: space-between;
 }
 .main{
-  width: 37%;
-  margin-right: 19%;
+  width: 40%;
 }
 .main__title{
   margin: 0;
   font: 280px/371px pt_serifbold, arial, helvetica, sans-seris;
   color: #F8EEE4;
   opacity: 0.5;
-  margin-left: 6px;
+  margin-left: 197px;
   margin-bottom: -143px;
 }
 .main__subtitle{
   margin: 0;
   font: 98px/130px pt_serifbold, arial, helvetica, sans-seris;
   color: #F8EEE4;
-  margin-left: 90px;
+  margin-left: 282px;
   margin-bottom: 20px;
 }
 .main__description{
@@ -78,9 +73,8 @@ body {
   color: #F8EEE4;
   word-spacing: 1px;
   margin: 0;
-  margin-left: 30px;
+  margin-left: 222px;
   margin-bottom: 35px;
-  margin-right: -10px;
 }
 .main__button{
   display: inline-block;
@@ -89,11 +83,11 @@ body {
   word-spacing: 4px;
   text-decoration: none;
   padding: 17px 55px 17px 87px; 
-  width: 150px;
+  width: 152px;
   height: 28px;
   background: #D4BEA3;
   border-radius: 48px;
-  margin-left: 31px;
+  margin-left: 222px;
   transition: opacity .5s;
 }
 .main__button:hover{
@@ -114,7 +108,6 @@ body {
   background: no-repeat url(image/image1_1920.jpg);
   border-radius: 5px;
   margin-right: 34px;
-  margin-left: 6px;
   margin-top: 2px;
 }
 .gallery__image-second{
@@ -136,13 +129,63 @@ body {
   
 }
 
+@media(max-width: 1750px){
+  .header{
+  margin-bottom: 120px;
+  }
+  .logo{
+    left: 110px;
+  }
+  .menu {
+    margin-right: 48px;
+  }
+  .main__title {
+    margin-left: 110px;
+    font: 260px/351px pt_serifbold, arial, helvetica, sans-seris;
+  }
+  .main__subtitle {
+   font: 88px/120px pt_serifbold, arial, helvetica, sans-seris;
+    margin-left: 195px;
+  }
+  .main__description {
+    margin-left: 135px;
+  }
+  .main__button {
+    margin-left: 135px;
+  }
+  .gallery__image-third {
+    width: 109px;
+  }
+}
+
+@media(max-width: 1510px){
+  .header {
+    margin-bottom: 110px;
+  }
+  .logo {
+    left: 90px;
+  }
+  .main__title {
+    margin-left: 80px;
+  }
+  .main__subtitle {
+    margin-left: 165px;
+    margin-bottom: 10px;
+  }
+  .main__description {
+    margin-left: 100px;
+  }
+  .main__button {
+    margin-left: 100px;
+  }
+  .gallery__image-third {
+    width: 90px;
+  }
+}
 
 @media(max-width: 1367px){
   .body{
     background:  no-repeat top url(image/background_1366.jpg); 
-  }
-  .wrapper {
-    width: 80%;
   }
   .header {
     margin-bottom: 105px;
@@ -152,55 +195,46 @@ body {
     width: 104px;
     height: 39px;
     top: 63px;
-    left: 5px;
+    left: 143px;
   }
   .menu{
     margin-top: 72px;
-    margin-right: -19px;
+    margin-right: 54px;
   }
   .menu__item{
     font: 16px/19px museo_sans_cyrl, arial, helvetica, sans-seris;
     margin-right: 28px;
   }
-  .menu__item:last-child {
-    margin-right: -35px;
-  }
-  .main {
-    width: 38%;
-    margin-right: 16%;
-  }
   .main__title{
     font: 200px/265px pt_serifbold, arial, helvetica, sans-seris;
     margin-bottom: -102px;
+    margin-left: 141px;
   }
   .main__subtitle{
     font: 70px/93px pt_serifbold, arial, helvetica, sans-seris;
-    margin-left: 64px;
+    margin-left: 200px;
     margin-bottom: 13px;
   }
   .main__description{
     font: 16px/19px museo_sans_cyrl, arial, helvetica, sans-seris;
-    margin-left: 20px;
+    margin-left: 156px;
     margin-bottom: 25px;
-    margin-right: -17px;
   }
   .main__button{
     font: 16px/19px museo_sans_cyrl, arial, helvetica, sans-seris;
     width: 95px;
     height: 20px;
-    margin-left: 21px;
+    margin-left: 158px;
     padding: 12px 51px 12px 63px;
     word-spacing: 3px;
   }
   .gallery{
     padding-top: 78px;
-    margin-left: 32px;
   }
   .gallery__image-first{
     width: 226px;
     height: 300px;
     background: no-repeat url(image/image1_1366.jpg);
-    margin-left: 3px;
     margin-right: 24px;
   }
   .gallery__image-second{
@@ -208,23 +242,43 @@ body {
     height: 270px;
     background: no-repeat url(image/image2_1366.jpg);
     margin-top: 18px;
-    margin-right: 23px;
+    margin-right: 26px;
   }
   .gallery__image-third{
-    width: 150px;
+    width: 147px;
     height: 270px;
     background: no-repeat url(image/image3_1366.jpg);
     margin-top: 16px;
   }
 }
 
+@media(max-width: 1246px){
+  .logo {
+    left: 60px;
+  }
+  .menu {
+    margin-right: 24px;
+  }
+  .main__title {
+    margin-left: 55px;
+  }
+  .main__subtitle {
+    margin-left: 120px;
+  }
+  .main__description {
+    margin-left: 65px;
+  }
+  .main__button {
+    margin-left: 65px;
+  }
+  .gallery__image-third {
+    width: 45px;
+  }
+}
 
 @media(max-width: 1025px){
   .body{
     background:  no-repeat top url(image/background_1024.jpg); 
-  }
-  .wrapper {
-    width: 92%;
   }
   .header {
     margin-bottom: 108px;
@@ -233,42 +287,42 @@ body {
     background: no-repeat url(image/logo_1024.svg);
     width: 104px;
     height: 39px;
-    left: 0;
+    left: 41px;
   }
   .menu {
     margin-top: 74px;
-    margin-right: 33px;
+    margin-right: 11px;
   }
   .main {
-    width: 41%;
-    margin-right: 5%;
+    width: 44%;
   }
   .main__title {
-    margin-left: 0;
+    margin-left: 41px;
     margin-bottom: -104px;
   }
   .main__subtitle {
-    margin-left: 59px;
+    margin-left: 100px;
   }
   .main__description {
-    margin-left: 16px;
+    margin-left: 56px;
     margin-bottom: 24px;
   }
   .main__button {
     height: 21px;
-    margin-left: 16px;
+    margin-left: 57px;
   }
   .gallery {
     padding-top: 77px;
-    margin-left: 34px;
   }
    .gallery__image-first{
     background: no-repeat url(image/image1_1024.jpg);
     margin-top: 1px;
+    margin-right: 24px;
   }
   .gallery__image-second{
     background: no-repeat url(image/image2_1024.jpg);
     margin-top: 15px;
+    margin-right: 23px;
   }
   .gallery__image-third{
     background: no-repeat url(image/image3_1024.jpg);
@@ -277,23 +331,66 @@ body {
   }
 }
 
+@media(max-width: 960px){
+  .gallery__image-second {
+    margin-right: 0px;
+    width: 120px;
+  }
+  .gallery__image-third{
+    display: none;
+  }
+}
 
-@media(max-width: 376px){
-  .body{
-    background:  no-repeat top url(image/background_mobile_375.jpg); 
+@media(max-width: 820px){
+  .main {
+    width: 57%;
   }
-  .wrapper {
-    width: 92%;
+  .main__title {
+    font: 180px/245px pt_serifbold, arial, helvetica, sans-seris;
   }
-  .header {
-    margin-bottom: 102px;
+  .main__subtitle {
+    margin-left: 90px;
+    font: 65px/88px pt_serifbold, arial, helvetica, sans-seris;
   }
-  .logo {
-    left: 26px;
-    top: 42px;
+  .main__description {
+    margin-left: 46px;
   }
+  .main__button {
+    height: 21px;
+    margin-left: 46px;
+  }
+  .gallery__image-second {
+    display: none;
+  }
+}
+
+@media(max-width: 665px){
   .menu{
     display:none;
+  }
+  .main {
+    width: 85%;
+    margin: auto;
+  }
+  .main__title {
+    text-align: center;
+    margin-left: 0;
+  }
+  .main__subtitle {
+    text-align: center;
+    margin-left: 35px;
+  }
+  .main__description {
+    margin-left: 0;
+    text-align: center;
+    margin-left: 0;
+  }
+  .main__button {
+    margin: 0 auto;
+    display: block;
+  }
+  .gallery {
+    display: none;
   }
   .menu__btn {
     display: flex; 
@@ -334,7 +431,7 @@ body {
     margin: 0;
     list-style: none;
     text-align: center;
-    background-color: #E5E5E5;
+    background-color: #fff;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
     transition-duration: 0.25s;
     z-index: 1;
@@ -376,37 +473,44 @@ body {
     left: 0;
     padding: 186px 16px 23px 0px;
   }
+}
+
+@media(max-width: 376px){
+  .body{
+    background:  no-repeat top url(image/background_mobile_375.jpg); 
+  }
+  .header {
+    margin-bottom: 102px;
+  }
+  .logo {
+    left: 41px;
+    top: 42px;
+  }
+  .menu{
+    display:none;
+  }
   .main {
-    width: 91%;
+    width: 90%;
   }
   .main__title{
     font: 170px/225px pt_serifbold, arial, helvetica, sans-seris;
-    margin-bottom: -78px;  
+    margin-bottom: -78px;
+    text-align: left;
   }
   .main__subtitle{
     font: 60px/80px pt_serifbold, arial, helvetica, sans-seris;
-    margin-bottom: -78px;
     margin-bottom: 34px;
+    margin-left: 56px;
+    text-align: left;
   }
   .main__description{
     font: 18px/22px museo_sans_cyrl, arial, helvetica, sans-seris;
     text-align: center;
-    margin: 0;
-    padding-left: 25px;
+    margin-right: 25px;
+    margin-left: 24px;
     margin-bottom: 35px;
   }
   .main__button {
-    margin-left: 61px;
-  }
-  .gallery {
-    display: none;
+    margin-left: 57px;
   }
 }
-
-
-
-
-
-
-
-
